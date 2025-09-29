@@ -1,0 +1,268 @@
+{
+    "key": "group_68d74ff8543aa",
+    "title": "Flexible Content Sections",
+    "fields": [
+        {
+            "key": "field_flexible_content_sections",
+            "label": "Page Sections",
+            "name": "flexible_content_sections",
+            "aria-label": "",
+            "type": "flexible_content",
+            "instructions": "Add and arrange page sections to build your content",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layouts": {
+                "layout_hero_section": {
+                    "key": "layout_hero_section",
+                    "name": "hero_section",
+                    "label": "Hero Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_hero_main_text",
+                            "label": "Main Text",
+                            "name": "hero_main_text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Main headline text (e.g., 'SIGNS. VEHICLE WRAPS. LED SCREENS')",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_hero_sub_text",
+                            "label": "Sub Text",
+                            "name": "hero_sub_text",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "Sub headline or description text",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 3,
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_hero_background_image",
+                            "label": "Background Image",
+                            "name": "hero_background_image",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "Background image for the hero section",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "array",
+                            "preview_size": "medium",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": ""
+                        },
+                        {
+                            "key": "field_hero_button_text",
+                            "label": "Button Text",
+                            "name": "hero_button_text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Call-to-action button text",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "e.g., GET A QUOTE",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_hero_button_url",
+                            "label": "Button URL",
+                            "name": "hero_button_url",
+                            "aria-label": "",
+                            "type": "url",
+                            "instructions": "Button link URL",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                "layout_cta_section": {
+                    "key": "layout_cta_section",
+                    "name": "cta_section",
+                    "label": "Call to Action Section",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "key": "field_cta_title",
+                            "label": "Section Title",
+                            "name": "cta_title",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Main title for the CTA section",
+                            "required": 1,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "e.g., We're here to expose you!",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_cta_description",
+                            "label": "Description",
+                            "name": "cta_description",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "Section description text",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "",
+                            "maxlength": "",
+                            "rows": 4,
+                            "new_lines": ""
+                        },
+                        {
+                            "key": "field_cta_button_text",
+                            "label": "Button Text",
+                            "name": "cta_button_text",
+                            "aria-label": "",
+                            "type": "text",
+                            "instructions": "Call-to-action button text",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": "e.g., GET A QUOTE",
+                            "prepend": "",
+                            "append": "",
+                            "maxlength": ""
+                        },
+                        {
+                            "key": "field_cta_button_url",
+                            "label": "Button URL",
+                            "name": "cta_button_url",
+                            "aria-label": "",
+                            "type": "url",
+                            "instructions": "Button link URL",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "placeholder": ""
+                        },
+                        {
+                            "key": "field_cta_background_color",
+                            "label": "Background Color",
+                            "name": "cta_background_color",
+                            "aria-label": "",
+                            "type": "color_picker",
+                            "instructions": "Background color for the section",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "#ffffff",
+                            "enable_opacity": 0,
+                            "return_format": "string"
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                }
+            },
+            "min": "",
+            "max": "",
+            "button_label": "Add Section"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "page"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "discussion",
+        "comments",
+        "revisions",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": true,
+    "description": "Flexible content sections for building dynamic pages",
+    "show_in_rest": 1,
+    "modified": 1758946867
+}
