@@ -24,69 +24,64 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_hero_main_text",
-                            "label": "Main Text",
-                            "name": "hero_main_text",
+                            "key": "field_68d9f276885e5",
+                            "label": "Content",
+                            "name": "",
                             "aria-label": "",
-                            "type": "text",
-                            "instructions": "Main headline text (e.g., 'SIGNS. VEHICLE WRAPS. LED SCREENS')",
-                            "required": 1,
+                            "type": "tab",
+                            "instructions": "",
+                            "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
                                 "width": "",
                                 "class": "",
                                 "id": ""
                             },
+                            "placement": "top",
+                            "endpoint": 0,
+                            "selected": 0
+                        },
+                        {
+                            "key": "field_hero_main_text",
+                            "label": "Title",
+                            "name": "hero_title",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "Main headline text (e.g., 'SIGNS. VEHICLE WRAPS. LED SCREENS')",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
                             "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "rows": 2,
                             "placeholder": "",
-                            "prepend": "",
-                            "append": "",
-                            "maxlength": ""
+                            "new_lines": ""
                         },
                         {
                             "key": "field_hero_sub_text",
-                            "label": "Sub Text",
-                            "name": "hero_sub_text",
+                            "label": "Sub Title",
+                            "name": "hero_sub_title",
                             "aria-label": "",
                             "type": "textarea",
                             "instructions": "Sub headline or description text",
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
-                                "width": "",
+                                "width": "50",
                                 "class": "",
                                 "id": ""
                             },
                             "default_value": "",
-                            "placeholder": "",
                             "maxlength": "",
-                            "rows": 3,
+                            "allow_in_bindings": 1,
+                            "rows": 2,
+                            "placeholder": "",
                             "new_lines": ""
-                        },
-                        {
-                            "key": "field_hero_background_image",
-                            "label": "Background Image",
-                            "name": "hero_background_image",
-                            "aria-label": "",
-                            "type": "image",
-                            "instructions": "Background image for the hero section",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            },
-                            "return_format": "array",
-                            "preview_size": "medium",
-                            "library": "all",
-                            "min_width": "",
-                            "min_height": "",
-                            "min_size": "",
-                            "max_width": "",
-                            "max_height": "",
-                            "max_size": "",
-                            "mime_types": ""
                         },
                         {
                             "key": "field_hero_button_text",
@@ -94,7 +89,7 @@
                             "name": "hero_button_text",
                             "aria-label": "",
                             "type": "text",
-                            "instructions": "Call-to-action button text",
+                            "instructions": "",
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
@@ -103,18 +98,19 @@
                                 "id": ""
                             },
                             "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 1,
                             "placeholder": "e.g., GET A QUOTE",
                             "prepend": "",
-                            "append": "",
-                            "maxlength": ""
+                            "append": ""
                         },
                         {
                             "key": "field_hero_button_url",
                             "label": "Button URL",
                             "name": "hero_button_url",
                             "aria-label": "",
-                            "type": "url",
-                            "instructions": "Button link URL",
+                            "type": "text",
+                            "instructions": "",
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
@@ -123,7 +119,99 @@
                                 "id": ""
                             },
                             "default_value": "",
-                            "placeholder": ""
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
+                        },
+                        {
+                            "key": "field_68d9f29b885e6",
+                            "label": "Style",
+                            "name": "",
+                            "aria-label": "",
+                            "type": "tab",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            },
+                            "placement": "top",
+                            "endpoint": 0,
+                            "selected": 0
+                        },
+                        {
+                            "key": "field_68d9f3e4885e8",
+                            "label": "Content Align",
+                            "name": "hero_content_align",
+                            "aria-label": "",
+                            "type": "button_group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "left": "Left",
+                                "center": "Center",
+                                "right": "Right"
+                            },
+                            "default_value": "center",
+                            "return_format": "value",
+                            "allow_null": 0,
+                            "allow_in_bindings": 0,
+                            "layout": "horizontal"
+                        },
+                        {
+                            "key": "field_hero_background_image",
+                            "label": "Background Image",
+                            "name": "hero_bg_image",
+                            "aria-label": "",
+                            "type": "image",
+                            "instructions": "Background image for the hero section",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "return_format": "url",
+                            "library": "all",
+                            "min_width": "",
+                            "min_height": "",
+                            "min_size": "",
+                            "max_width": "",
+                            "max_height": "",
+                            "max_size": "",
+                            "mime_types": "",
+                            "allow_in_bindings": 0,
+                            "preview_size": "thumbnail"
+                        },
+                        {
+                            "key": "field_68d9f2c1885e7",
+                            "label": "Background Color",
+                            "name": "hero_bg_color",
+                            "aria-label": "",
+                            "type": "color_picker",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "default_value": "",
+                            "enable_opacity": 0,
+                            "return_format": "string",
+                            "allow_in_bindings": 0
                         }
                     ],
                     "min": "",
@@ -136,24 +224,43 @@
                     "display": "block",
                     "sub_fields": [
                         {
-                            "key": "field_cta_title",
-                            "label": "Section Title",
-                            "name": "cta_title",
+                            "key": "field_68db79bc06c49",
+                            "label": "Content",
+                            "name": "",
                             "aria-label": "",
-                            "type": "text",
-                            "instructions": "Main title for the CTA section",
-                            "required": 1,
+                            "type": "tab",
+                            "instructions": "",
+                            "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
                                 "width": "",
                                 "class": "",
                                 "id": ""
                             },
+                            "placement": "top",
+                            "endpoint": 0,
+                            "selected": 0
+                        },
+                        {
+                            "key": "field_cta_title",
+                            "label": "Title",
+                            "name": "cta_title",
+                            "aria-label": "",
+                            "type": "textarea",
+                            "instructions": "Main title for the CTA section",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "50",
+                                "class": "",
+                                "id": ""
+                            },
                             "default_value": "",
-                            "placeholder": "e.g., We're here to expose you!",
-                            "prepend": "",
-                            "append": "",
-                            "maxlength": ""
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "rows": 2,
+                            "placeholder": "",
+                            "new_lines": ""
                         },
                         {
                             "key": "field_cta_description",
@@ -165,14 +272,15 @@
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
-                                "width": "",
+                                "width": "50",
                                 "class": "",
                                 "id": ""
                             },
                             "default_value": "",
-                            "placeholder": "",
                             "maxlength": "",
-                            "rows": 4,
+                            "allow_in_bindings": 1,
+                            "rows": 2,
+                            "placeholder": "",
                             "new_lines": ""
                         },
                         {
@@ -181,7 +289,7 @@
                             "name": "cta_button_text",
                             "aria-label": "",
                             "type": "text",
-                            "instructions": "Call-to-action button text",
+                            "instructions": "",
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
@@ -190,18 +298,19 @@
                                 "id": ""
                             },
                             "default_value": "",
+                            "maxlength": "",
+                            "allow_in_bindings": 1,
                             "placeholder": "e.g., GET A QUOTE",
                             "prepend": "",
-                            "append": "",
-                            "maxlength": ""
+                            "append": ""
                         },
                         {
                             "key": "field_cta_button_url",
                             "label": "Button URL",
                             "name": "cta_button_url",
                             "aria-label": "",
-                            "type": "url",
-                            "instructions": "Button link URL",
+                            "type": "text",
+                            "instructions": "",
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
@@ -210,15 +319,19 @@
                                 "id": ""
                             },
                             "default_value": "",
-                            "placeholder": ""
+                            "maxlength": "",
+                            "allow_in_bindings": 0,
+                            "placeholder": "",
+                            "prepend": "",
+                            "append": ""
                         },
                         {
-                            "key": "field_cta_background_color",
-                            "label": "Background Color",
-                            "name": "cta_background_color",
+                            "key": "field_68db7a0d06c4a",
+                            "label": "Style",
+                            "name": "",
                             "aria-label": "",
-                            "type": "color_picker",
-                            "instructions": "Background color for the section",
+                            "type": "tab",
+                            "instructions": "",
                             "required": 0,
                             "conditional_logic": 0,
                             "wrapper": {
@@ -226,9 +339,53 @@
                                 "class": "",
                                 "id": ""
                             },
+                            "placement": "top",
+                            "endpoint": 0,
+                            "selected": 0
+                        },
+                        {
+                            "key": "field_68db7a2b06c4b",
+                            "label": "Content Align",
+                            "name": "cta_content_align",
+                            "aria-label": "",
+                            "type": "button_group",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
+                            "choices": {
+                                "left": "Left",
+                                "center": "Center",
+                                "right": "Right"
+                            },
+                            "default_value": "center",
+                            "return_format": "value",
+                            "allow_null": 0,
+                            "allow_in_bindings": 0,
+                            "layout": "horizontal"
+                        },
+                        {
+                            "key": "field_cta_background_color",
+                            "label": "Background Color",
+                            "name": "cta_bg_color",
+                            "aria-label": "",
+                            "type": "color_picker",
+                            "instructions": "Background color for the section",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "33.33",
+                                "class": "",
+                                "id": ""
+                            },
                             "default_value": "#ffffff",
                             "enable_opacity": 0,
-                            "return_format": "string"
+                            "return_format": "string",
+                            "allow_in_bindings": 1
                         }
                     ],
                     "min": "",
@@ -264,5 +421,5 @@
     "active": true,
     "description": "Flexible content sections for building dynamic pages",
     "show_in_rest": 1,
-    "modified": 1758946867
+    "modified": 1759214215
 }
