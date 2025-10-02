@@ -16,3 +16,9 @@ if (!defined('ABSPATH')) {
 add_action( 'init', function() {
     remove_post_type_support('page', 'editor');
 }, 99);
+
+
+// echo "<pre>";
+// print_r(get_field('header_logo', 'option'));
+// print_r(get_field('main_menu', 'option'));
+// echo "</pre>";
