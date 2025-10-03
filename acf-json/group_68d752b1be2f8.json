@@ -2,177 +2,200 @@
     "key": "group_68d752b1be2f8",
     "title": "Footer Options",
     "fields": [
-      {
-        "key": "field_footer_logo",
-        "label": "Footer Logo",
-        "name": "footer_logo",
-        "type": "image",
-        "instructions": "Logo for the footer",
-        "required": 0,
-        "conditional_logic": 0,
-        "wrapper": {
-          "width": "",
-          "class": "",
-          "id": ""
-        },
-        "return_format": "array",
-        "preview_size": "medium",
-        "library": "all",
-        "min_width": "",
-        "min_height": "",
-        "min_size": "",
-        "max_width": "",
-        "max_height": "",
-        "max_size": "",
-        "mime_types": ""
-      },
-      {
-        "key": "field_footer_address",
-        "label": "Address",
-        "name": "footer_address",
-        "type": "textarea",
-        "instructions": "Company address",
-        "required": 0,
-        "conditional_logic": 0,
-        "wrapper": {
-          "width": "",
-          "class": "",
-          "id": ""
-        },
-        "default_value": "",
-        "placeholder": "",
-        "maxlength": "",
-        "rows": 3,
-        "new_lines": ""
-      },
-      {
-        "key": "field_footer_phone",
-        "label": "Phone Number",
-        "name": "footer_phone",
-        "type": "text",
-        "instructions": "Company phone number",
-        "required": 0,
-        "conditional_logic": 0,
-        "wrapper": {
-          "width": "50",
-          "class": "",
-          "id": ""
-        },
-        "default_value": "",
-        "placeholder": "",
-        "prepend": "",
-        "append": "",
-        "maxlength": ""
-      },
-      {
-        "key": "field_footer_email",
-        "label": "Email Address",
-        "name": "footer_email",
-        "type": "email",
-        "instructions": "Company email address",
-        "required": 0,
-        "conditional_logic": 0,
-        "wrapper": {
-          "width": "50",
-          "class": "",
-          "id": ""
-        },
-        "default_value": "",
-        "placeholder": "",
-        "prepend": "",
-        "append": "",
-        "maxlength": ""
-      },
-      {
-        "key": "field_social_media_links",
-        "label": "Social Media Links",
-        "name": "social_media_links",
-        "type": "repeater",
-        "instructions": "Add social media links",
-        "required": 0,
-        "conditional_logic": 0,
-        "wrapper": {
-          "width": "",
-          "class": "",
-          "id": ""
-        },
-        "collapsed": "",
-        "min": 0,
-        "max": 0,
-        "layout": "table",
-        "button_label": "Add Social Link",
-        "sub_fields": [
-          {
-            "key": "field_social_platform",
-            "label": "Platform",
-            "name": "platform",
-            "type": "select",
-            "instructions": "Social media platform",
-            "required": 1,
+        {
+            "key": "field_footer_logo",
+            "label": "Footer Logo",
+            "name": "footer_logo",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-              "width": "30",
-              "class": "",
-              "id": ""
+                "width": "50",
+                "class": "",
+                "id": ""
             },
-            "choices": {
-              "facebook": "Facebook",
-              "instagram": "Instagram",
-              "linkedin": "LinkedIn",
-              "twitter": "Twitter",
-              "youtube": "YouTube",
-              "tiktok": "TikTok"
-            },
-            "default_value": "",
-            "allow_null": 0,
-            "multiple": 0,
-            "ui": 0,
-            "return_format": "value",
-            "ajax": 0,
-            "placeholder": ""
-          },
-          {
-            "key": "field_social_url",
-            "label": "URL",
-            "name": "url",
-            "type": "url",
-            "instructions": "Social media profile URL",
-            "required": 1,
+            "return_format": "url",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "allow_in_bindings": 1,
+            "preview_size": "thumbnail"
+        },
+        {
+            "key": "field_footer_background_image",
+            "label": "Footer Top Banner",
+            "name": "footer_banner",
+            "aria-label": "",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
             "conditional_logic": 0,
             "wrapper": {
-              "width": "70",
-              "class": "",
-              "id": ""
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "return_format": "array",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "allow_in_bindings": 1,
+            "preview_size": "thumbnail"
+        },
+        {
+            "key": "field_footer_phone",
+            "label": "Phone Number",
+            "name": "footer_phone",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
             },
             "default_value": "",
-            "placeholder": "https://"
-          }
-        ]
-      },
-      {
-        "key": "field_footer_background_image",
-        "label": "Footer Background Image",
-        "name": "footer_background_image",
-        "type": "image",
-        "instructions": "Background image for the footer (e.g., team photo)",
-        "required": 0,
-        "conditional_logic": 0,
-        "wrapper": {
-          "width": "",
-          "class": "",
-          "id": ""
+            "maxlength": "",
+            "allow_in_bindings": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
         },
-        "return_format": "array",
-        "preview_size": "medium",
-        "library": "all",
-        "min_width": "",
-        "min_height": "",
-        "min_size": "",
-        "max_width": "",
-        "max_height": "",
-        "max_size": "",
-        "mime_types": ""
-      }
+        {
+            "key": "field_footer_email",
+            "label": "Email Address",
+            "name": "footer_email",
+            "aria-label": "",
+            "type": "email",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "allow_in_bindings": 1,
+            "placeholder": "",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_footer_address",
+            "label": "Address",
+            "name": "footer_address",
+            "aria-label": "",
+            "type": "textarea",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "allow_in_bindings": 1,
+            "rows": 3,
+            "placeholder": "",
+            "new_lines": ""
+        },
+        {
+            "key": "field_social_media_links",
+            "label": "Social Media Links",
+            "name": "social_media_links",
+            "aria-label": "",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "layout": "table",
+            "pagination": 0,
+            "min": 0,
+            "max": 0,
+            "collapsed": "",
+            "button_label": "Add Social Link",
+            "rows_per_page": 20,
+            "sub_fields": [
+                {
+                    "key": "field_social_platform",
+                    "label": "Platform",
+                    "name": "platform",
+                    "aria-label": "",
+                    "type": "select",
+                    "instructions": "",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "facebook": "Facebook",
+                        "instagram": "Instagram",
+                        "linkedin": "LinkedIn",
+                        "twitter": "Twitter",
+                        "youtube": "YouTube",
+                        "tiktok": "TikTok"
+                    },
+                    "default_value": false,
+                    "return_format": "value",
+                    "multiple": 0,
+                    "allow_null": 0,
+                    "allow_in_bindings": 1,
+                    "ui": 0,
+                    "ajax": 0,
+                    "placeholder": "",
+                    "create_options": 0,
+                    "save_options": 0,
+                    "parent_repeater": "field_social_media_links"
+                },
+                {
+                    "key": "field_social_url",
+                    "label": "Social URL",
+                    "name": "social_url",
+                    "aria-label": "",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "maxlength": "",
+                    "allow_in_bindings": 0,
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "parent_repeater": "field_social_media_links"
+                }
+            ]
+        }
     ],
     "location": [
         [
@@ -192,5 +215,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 1,
-    "modified": 1758941896
+    "modified": 1759305524
 }
