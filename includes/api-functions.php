@@ -64,6 +64,7 @@ add_action('rest_api_init', function () {
 function add_acf_options_to_api($response, $post, $request) {
   $options = [
     'header_logo'   => get_field('header_logo', 'option'),
+    'header_logo_mobile'   => get_field('header_logo_mobile', 'option'),
     'main_menu'   => get_field('main_menu', 'option'),
     'footer_logo'   => get_field('footer_logo', 'option'),
     'footer_banner'   => get_field('footer_banner', 'option'),
